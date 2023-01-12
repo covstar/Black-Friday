@@ -1,0 +1,301 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="https://covstar.sirv.com/Images/LOGO.png?w=30&h=30" width="30" height="16" srcset="https://covstar.sirv.com/Images/LOGO.png?w=30&h=30 1x, https://covstar.sirv.com/Images/LOGO.png?w=60&h=60 2x" />
+  
+  <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css" integrity="sha512-FA9cIbtlP61W0PRtX36P6CGRy0vZs0C2Uw26Q1cMmj3xwhftftymr0sj8/YeezDnRwL9wtWw8ZwtCiTDXlXGjQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    <!-- tailwind-css -->
+  <link href="../public/output.css" rel="stylesheet">
+
+  <!-- stylesheet  -->
+  <link rel="stylesheet" href="../src/styles.css">
+  <title>Orange Tee</title>
+</head>
+<body class="">
+    <header class="">
+
+       
+
+        <nav class="md:pt-4 sm:pt-2 md:px-24 sm:px-2 pb-4 sm:pb-2  ">
+            <!-- destop nav  -->
+            <div class="md:flex sm:hidden">
+                
+                <div>
+                    <img class="" src="https://covstar.sirv.com/Images/covstar-logo.png?w=200&h=200" width="109" height="56"  alt="" />
+                </div>
+
+                <div class="md:ml-auto">
+                    <ul class="flex gap-x-8 text-xl pt-1 font-Oswald font-semibold text-red-700">
+                        <li><a class="hover:text-black" href="../index.html">Home</a></li>
+                        <li><a class="hover:text-black" href="../shop.html">Shop</a></li>
+                        <li><a class="hover:text-black" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- mobile nav  -->
+            <div class="md:hidden relative">
+                
+                <div>
+                    <img src="https://covstar.sirv.com/Images/covstar-logo.png?w=100&h=100" width="99" height="36" srcset="https://covstar.sirv.com/Images/covstar-logo.png?w=100&h=100 1x, https://covstar.sirv.com/Images/covstar-logo.png?w=200&h=200 2x" alt="" />
+                </div>
+
+                <div class="bg-white absolute z-50 w-60 -right-2 py-8 px-4 top-0 h-screen hidden mobile-nav">
+                    <ul class="  text-xl pt-1 font-Oswald font-semibold text-red-700 text-right mt-16">
+                        <li class="pb-10%"><a class="hover:text-black" href="index.html">Home</a></li>
+                        <li class="pb-10%"><a class="hover:text-black" href="shop.html">Shop</a></li>
+                        <li class="pb-10%"><a class="hover:text-black" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="cursor-pointer absolute top-1 right-2 z-50 text-red-700 font-light">
+                    <i class="fa fa-bars text-2xl "></i>
+                    <i class="fa fa-xmark text-2xl hidden"></i>
+                </div>
+
+            </div>
+
+        </nav>
+        
+            <!-- slideshow for desktop  -->
+            <div class="sm:hidden relative">
+                <div class="absolute bg-black z-20 w-full h-full opacity-50"></div>
+                <div class="absolute z-40 w-full h-full pt-17%  tb:pt-10% text-center px-20% tb:px-15%">
+                    
+                    <a class="text-white font-Oswald font-medium text-5xl drop-shadow-black " href="shop.html">SHOP</a>
+                    <i class="fa fa-angle-right mx-4 text-white leading-loose text-4xl"></i>
+                    <a class="text-white font-Oswald font-medium text-5xl xs:text-base drop-shadow-black  " href="../t-shirt.html">T-shirts</a>
+                    <i class="fa fa-angle-right mx-2 text-white leading-loose text-4xl"></i>
+                    <span>
+                        <a class="text-white font-Oswald font-medium text-5xl drop-shadow-red " href="shop.html">
+                            Orange Tee
+                        </a>
+                    </span>
+
+
+                </div>
+            
+        <div class="slide sm:hidden ">
+
+            <div class="sm:hidden">
+                <img  src="https://covstar.sirv.com/Images/mobile_bg-5.jpg" width="2100" height="910" alt="" />
+            </div>
+            
+            <div class="sm:hidden">
+                <img  src="https://covstar.sirv.com/Images/Desktop_bg-1.jpg" width="2100" height="910" alt="" />
+            </div>
+
+            <div class="sm:hidden">
+                <img  src="https://covstar.sirv.com/Images/Desktop_bg-2.jpg" width="2100" height="910" alt="" />
+            </div>
+            <div class="sm:hidden">
+                <img src="https://covstar.sirv.com/Images/Desktop_bg-3.jpg" width="2100" height="910" alt="" />
+            </div>
+
+        </div>
+        </div>
+
+            <!-- slideshow for mobile  -->
+
+            <div class="md:hidden relative overflow-clip">
+                <div class="absolute bg-black z-20 w-full h-full opacity-50"></div>
+                <div class="absolute z-40 w-full h-full pt-40% xs:pt-40% text-center px-8">
+                    
+                    
+                    <a class="text-white font-Oswald font-medium text-2xl xs:text-base drop-shadow-black  " href="../shop.html">Shop</a>
+                    <i class="fa fa-angle-right mx-2 text-white leading-loose"></i>
+                    <a class="text-white font-Oswald font-medium text-2xl xs:text-base drop-shadow-black  " href="../t-shirt.html">T-shirts</a>
+                    <i class="fa fa-angle-right mx-2 text-white leading-loose"></i>
+                    <span class="text-white font-Oswald font-medium text-2xl xs:text-base drop-shadow-red  ">
+                        Orange Tee
+                    </span>
+                    
+                </div>
+        <div class="slide md:hidden">
+            
+            <div class="md:hidden">
+                    <img src="https://covstar.sirv.com/Images/mobile_bg-4.jpg" width="930" height="810" alt="" />
+                </div>
+                <div class="md:hidden">
+                <img  src="https://covstar.sirv.com/Images/mobile_bg-1.jpg" width="930" height="810" alt="" />
+            </div>
+            <div class="md:hidden">
+                <img  src="https://covstar.sirv.com/Images/mobile_bg-2.jpg" width="930" height="810" alt="" />
+            </div>
+            <div class="md:hidden">
+                <img src="https://covstar.sirv.com/Images/mobile_bg-3.jpg" width="930" height="810" alt="" />
+            </div>
+
+        </div>
+        </div>
+        
+    </header>
+
+    <!-- go back button  -->
+             <div class="sm:mt-4 sm:ml-4 md:mt-10 md:ml-14">
+               <a class="bg-red-700 px-3 py-1 text-white rounded-sm" href="../t-shirt.html"><i class="fa-sharp fa-solid fa-angle-left"></i></a> 
+            </div>
+
+        <!-- main section  -->
+
+        <main class="md:my-24 sm:my-16 md:px-24 tb:px-2 sm:px-2">
+
+            <div class="md:flex ">
+
+
+            <div class="sm:px-5% md:px-10%">
+                <div class=" sm:w-72  relative">
+                     <img  class=" border-2 cursor-pointer" src="https://covstar.sirv.com/Images/T-shirts/covstar-T-shirts13.png?brightness=2&contrast=9&cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" alt="shirt" />
+                     <p class="absolute md:left-0 sm:right-0 z-20  top-0 bg-red-300 sm:text-xs sm:p-2 md:text-base md:p-1 rounded-l-sm font-medium font-Oswald">-40%</p>
+                </div>
+                <!-- product name price and description -->
+                <div class="mt-4 font-Raleway">
+                    <!-- product name -->
+                    <p class="font-Raleway md:text-2xl sm:text-2xl font-bold ">Orange Tee</p>
+                    <!-- prices  -->
+                    <span class="sm:text-xl md:text-xl font-bold text-red-700 text-center">N2,600</span>
+                    <span class="line-through text-sm">N4,000</span>
+
+                  
+                    <h1 class="pt-12 font-bold ">PRODUCT DESCRIPTION:</h1>
+                    <p class="py-2 xs:text-sm">With a variety of wonderful colors available, this tie-dye T-shirt will soon to become one of your favorites.</p>
+
+                    <div class="mt-8 bg-gray-200 p-8">
+                        <h2 class="text-2xl font-semibold pb-2">Product Details</h2>
+                        <ul class="list-disc ml-8 xs:text-sm">
+                            <li>100% cotton</li>
+                            <li>Orange, white and green colors</li>
+                            <li class="font-bold">No two are exactly alike</li>
+                        </ul>
+                        
+                    </div>
+                 
+                </div>
+
+                <div class="mt-12 font-Raleway">
+                    <h2 class="font-bold">How To Place Order</h2>
+                    <ul class="list-decimal ml-8 pt-3% xs:text-sm">
+                        <li>Take a screenshot of this product and forward to us on WhatsApp</li>
+                        <li>Include the size: <b>M, L, XL</b></li>
+                        <li>Specify the colors You want on the product</li>
+                    </ul>
+                    
+                </div>
+
+                <div class=" mt-8">
+                    <button class="bg-red-700 border-2 shadow-red-900 border-red-700 hover:bg-white hover:text-red-700 md:font-bold rounded-full text-white sm:py-2 ml-4 sm:px-4 md:py-2 md:px-5 xs:text-sm xs:ml-2"><a  href="https://wa.me/2348109119717?text=Hello!%0AMy%20Name%20is:%0AHere%20is/are%20my%20order(s):"> Place Order <i class="fa-sharp fa-solid fa-paper-plane"></i></a></button>
+                </div>
+                
+
+
+
+            </div>
+
+            <!-- sidebar -->
+            <div class=" sm:hidden md:w-1/5 tb:w-2/5 font-Raleway">
+                <nav class=" border-solid border-l-2 border-red-500 md:-mr-28 tb:-mr-2">
+                    <p class="text-center bg-red-700 text-white py-3 text-2xl font-bold">PRODUCTS</p>
+                    <ul class="text-center pt-15% text-2xl">
+                        <li class="mb-8 border-b border-red-200 pb-2"><a href="../shirt.html">Shirts</a></li>
+                        <li class="mb-8 border-b border-red-200 pb-2"><a href="../t-shirt.html">T-shirts</a></li>
+                        <li class="mb-8 border-b border-red-200 pb-2"><a href="../sweatshirt.html">Sweatshirts</a></li>
+                        <li class="mb-8 border-b border-red-200 pb-2"><a href="../longsleeveT.html">Longsleeve Tee</a></li>
+                        <li class="mb-8 border-b border-red-200 pb-2"><a href="../hoodie.html">Hoodies</a></li>
+                        <li class="mb-8 border-b border-red-200 pb-2"><a href="../joggers.html">Joggers</a></li>
+                        <li class="mb-8 border-b border-red-200 pb-2"><a href="..//cap.html">Caps</a></li>
+                        <li class="mb-8 border-b border-red-200 pb-2"><a href="../socks.html">Socks</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+           
+            </div>
+
+        </main>
+
+
+
+
+
+
+
+
+
+     <!-- footer section  -->
+
+    <footer class="bg-black md:px-24 tb:px-2 sm:px-4 md:py-12 md:pt-5% sm:py-5% text-white font-Raleway">
+        <div class="md:flex md:justify-between md:pb-5%">
+            <!-- logo  -->
+            <div>
+                    <img class="" src="https://covstar.sirv.com/Images/covstar-logo.png?exposure=63&w=200&h=200" width="109" height="56"  alt="" />
+                    <p class="pt-3% sm:text-xs italic">We Redesign Your Textile World...</p>
+                </div>
+
+                
+                <!-- Quick links -->
+                <div class="sm:text-center md:text-center sm:pt-3%">
+                    <ul class="  text-xl font-Oswald font-semibold text-red-500 sm:flex gap-x-4 justify-center mt-8">
+                        <li class="md:pb-6 sm:pb-3%"><a class="hover:text-white" href="../index.html">Home</a></li>
+                        <li class="md:pb-6 sm:pb-3%"><a class="hover:text-white" href="../shop.html">Shop</a></li>
+                        <li class=""><a class="hover:text-white" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact links  -->
+                <div class="sm:grid sm:justify-items-center sm:text-sm sm:py-5% xs:text-xs">
+                    <ul>
+                        <li class="md:pb-6 sm:pb-2 "><i class="fa-sharp fa-solid fa-location-dot mr-4 text-red-700"></i> Location: <span class="ml-4  italic">#7 Ogoja Rd 4/C, Ikom, Cross River State.</span></li>
+
+                        <li class="md:pb-6 sm:pb-2"><i class="fa-solid fa-envelope mr-4 text-red-700"></i> Email: <a class="ml-7  italic" href="mailto:covstardesigns@gmail.com">covstardesigns@gmail.com</a></li>
+
+                        <li class="md:pb-6 sm:pb-2"><i class="fa fa-phone mr-4 text-red-700"></i> Contact: <a class="ml-4  italic" href="tel:+2348109119717">+2348109119717</a></li>
+                    </ul>
+                </div>
+        </div>
+                <!-- social media icons -->
+                <div class="md:text-left sm:text-center">
+                    <a class="" href="#"><i class="fa-brands fa-facebook text-red-500 hover:text-white md:text-2xl sm:text-2xl mr-4 md:mr-12"></i></a>
+                    <a class="" href="#"><i class="fa-brands fa-instagram text-red-500 hover:text-white md:text-2xl sm:text-2xl  mr-4 md:mr-12"></i></a>
+                    <a class="" href="#"><i class="fa-brands fa-twitter text-red-500 hover:text-white md:text-2xl sm:text-2xl  mr-4 md:mr-12"></i></a>
+                </div>
+
+                <!-- copyright -->
+                <div class="sm:text-center pt-12 sm:text-sm">
+                    &#169; 2022 covstardesigns. All Right Reseverd. Built by <a class="text-red-700 font-medium" href="#">Covstar</a>
+                </div>
+
+                
+
+        
+    </footer>
+
+
+
+
+
+
+
+    <!-- javascript -->
+    <!-- jquery and jquery-ui cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="../src/script.js"></script>
+</body>
+</html>

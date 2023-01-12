@@ -1,0 +1,780 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="https://covstar.sirv.com/Images/LOGO.png?w=30&h=30" width="30" height="16" srcset="https://covstar.sirv.com/Images/LOGO.png?w=30&h=30 1x, https://covstar.sirv.com/Images/LOGO.png?w=60&h=60 2x" />
+  
+
+  <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.css" integrity="sha512-FA9cIbtlP61W0PRtX36P6CGRy0vZs0C2Uw26Q1cMmj3xwhftftymr0sj8/YeezDnRwL9wtWw8ZwtCiTDXlXGjQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+    <!-- tailwind-css -->
+  <link href="./public/output.css" rel="stylesheet">
+
+  <!-- stylesheet  -->
+  <link rel="stylesheet" href="./src/styles.css">
+  <title>Black Friday</title>
+</head>
+<body class="">
+    <header class="">
+
+        <!-- <section class="md:py-4 sm:py-2  sm:px-2 border-b-slate-300 border-b-2 bg-red-100">
+
+            <div class="text-center">
+            <a class="" href="#"><i class="fa-brands fa-facebook text-red-700 hover:text-black md:text-2xl sm:text-xl mr-4 md:mr-12"></i></a>
+            <a class="" href="#"><i class="fa-brands fa-instagram text-red-700 hover:text-black md:text-2xl sm:text-xl  mr-4 md:mr-12"></i></a>
+            <a class="" href="#"><i class="fa-brands fa-twitter text-red-700 hover:text-black md:text-2xl sm:text-xl  mr-4 md:mr-12"></i></a>
+        </div>
+
+        </section> -->
+
+        <nav class="md:pt-4 sm:pt-2 md:px-24 sm:px-2 pb-4 sm:pb-2  ">
+            <!-- destop nav  -->
+            <div class="md:flex sm:hidden">
+                
+                <div>
+                    <img class="" src="https://covstar.sirv.com/Images/covstar-logo.png?w=200&h=200" width="109" height="56"  alt="" />
+                </div>
+
+                <div class="md:ml-auto">
+                    <ul class="flex gap-x-8 text-xl pt-1 font-Oswald font-semibold text-red-700">
+                        <li><a class="hover:text-black" href="index.html">Home</a></li>
+                        <li><a class="hover:text-black" href="shop.html">Shop</a></li>
+                        <li><a class="hover:text-black" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- mobile nav  -->
+            <div class="md:hidden relative">
+                
+                <div>
+                    <img src="https://covstar.sirv.com/Images/covstar-logo.png?w=100&h=100" width="99" height="36" srcset="https://covstar.sirv.com/Images/covstar-logo.png?w=100&h=100 1x, https://covstar.sirv.com/Images/covstar-logo.png?w=200&h=200 2x" alt="" />
+                </div>
+
+                <div class="bg-white absolute z-50 w-60 -right-2 py-8 px-4 top-0 h-screen hidden mobile-nav">
+                    <ul class="  text-xl pt-1 font-Oswald font-semibold text-red-700 text-right mt-16">
+                        <li class="pb-10%"><a class="hover:text-black" href="index.html">Home</a></li>
+                        <li class="pb-10%"><a class="hover:text-black" href="shop.html">Shop</a></li>
+                        <li class="pb-10%"><a class="hover:text-black" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="cursor-pointer absolute top-1 right-2 z-50 text-red-700 font-light">
+                    <i class="fa fa-bars text-2xl "></i>
+                    <i class="fa fa-xmark text-2xl hidden"></i>
+                </div>
+
+            </div>
+
+        </nav>
+        
+            <!-- slideshow for desktop  -->
+            <div class="sm:hidden relative">
+                <div class="absolute bg-black z-20 w-full h-full opacity-50"></div>
+                <div class="absolute z-40 w-full h-full pt-17%  tb:pt-10% text-center px-20% tb:px-15%">
+                    <h1 class="text-white tb:text-5xl text-7xl font-Raleway font-extrabold leading-snug drop-shadow-red ">
+                       LETS BEAT SAPA TOGETHER
+                    </h1>
+                    <p class="text-white font-medium text-lg drop-shadow-black font-Raleway px-20%">With Just Chikini Money You Can Now Shop All You Ever Wanted This Season!</p>
+                    <div class="pt-3%">
+                        <button class="bg-white hover:bg-red-700 py-3 px-8 text-xl font-Raleway text-red-700 hover:text-white rounded-md font-bold"><a href="shop.html">Shop Now</a>
+                        </button>
+                    </div>
+                </div>
+            
+        <div class="slide sm:hidden ">
+
+            <div class="sm:hidden">
+                <img  src="https://covstar.sirv.com/Images/mobile_bg-5.jpg" width="2100" height="910" alt="" />
+            </div>
+            
+            <div class="sm:hidden">
+                <img  src="https://covstar.sirv.com/Images/Desktop_bg-1.jpg" width="2100" height="910" alt="" />
+            </div>
+
+            <div class="sm:hidden">
+                <img  src="https://covstar.sirv.com/Images/Desktop_bg-2.jpg" width="2100" height="910" alt="" />
+            </div>
+            <div class="sm:hidden">
+                <img src="https://covstar.sirv.com/Images/Desktop_bg-3.jpg" width="2100" height="910" alt="" />
+            </div>
+
+        </div>
+        </div>
+
+            <!-- slideshow for mobile  -->
+
+            <div class="md:hidden relative overflow-clip">
+                <div class="absolute bg-black z-20 w-full h-full opacity-50"></div>
+                <div class="absolute z-40 w-full h-full pt-27% xs:pt-17% text-center px-8">
+                    <h1 class="text-white text-4xl font-Raleway font-bold leading-snug drop-shadow-red xs:text-3xl">
+                       LETS BEAT SAPA TOGETHER
+                    </h1>
+                    <p class="text-white  font-medium text-base drop-shadow-black font-Raleway px-15% xs:px-10% xs:text-sm">With Just Chikini Money You Can Now Shop All You Ever Wanted This Season!</p>
+                    <div class="pt-10%">
+                        <button class="bg-white hover:bg-red-700 py-3 px-8 text-xl xs:text-xs xs:px-4 font-Raleway text-red-700 hover:text-white rounded-md "><a href="shop.html">Shop Now</a>
+                        </button>
+                    </div>
+                </div>
+        <div class="slide md:hidden">
+            
+            <div class="md:hidden">
+                    <img src="https://covstar.sirv.com/Images/mobile_bg-4.jpg" width="930" height="810" alt="" />
+                </div>
+                <div class="md:hidden">
+                <img  src="https://covstar.sirv.com/Images/mobile_bg-1.jpg" width="930" height="810" alt="" />
+            </div>
+            <div class="md:hidden">
+                <img  src="https://covstar.sirv.com/Images/mobile_bg-2.jpg" width="930" height="810" alt="" />
+            </div>
+            <div class="md:hidden">
+                <img src="https://covstar.sirv.com/Images/mobile_bg-3.jpg" width="930" height="810" alt="" />
+            </div>
+
+        </div>
+        </div>
+        
+    </header>
+
+    <!-- main section  -->
+    
+    <main class="md:my-24 sm:my-16 md:px-24 tb:px-2 sm:px-2">
+
+
+        <!-- mini-about section for products  -->
+        <section>
+            <div class="flex  justify-center text-center gap-x-4 font-Raleway">
+
+                <div class="border-2 md:py-6 xs:text-base md:px-4 sm:py-4 sm:px-4 md:text-3xl tb:text-2xl md:w-1/2">
+                    <i class="fa-solid fa-check text-red-700 mb-2"></i>
+                    <p class="sm:leading-snug ">Quality Products</p>
+                </div>
+
+                <div class="border-2 md:py-6 xs:text-base md:px-4 sm:py-4 sm:px-4 md:text-3xl tb:text-2xl md:w-1/2">
+                    <i class="fa-solid fa-truck text-red-700 mb-2"></i>
+                    <p class="sm:leading-snug ">Nationwide Delivery</p>
+                </div>
+
+                <div class="border-2 md:py-6 xs:text-base md:px-4 sm:py-4 sm:px-4 md:text-3xl tb:text-2xl md:w-1/2">
+                    <i class="fa-solid fa-phone text-red-700 mb-2"></i>
+                    <p class="sm:leading-snug ">24/7 Support</p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- CATEGORIES sections  -->
+
+        <section class="md:pt-24 sm:pt-24 sm:px-4 xs:px-2">
+          <div>
+                <div class="text-center flex justify-center sm:mb-10 md:mb-16">
+                   <img class="mr-8 sm:mr-4 sm:-mt-1" src="https://img.icons8.com/office/40/000000/horizontal-line.png"/>
+                    <span class="md:text-4xl sm:text-2xl font-Oswald font-semibold">CATEGORIES</span>
+                    <img class="ml-8 sm:ml-4 sm:-mt-1"  src="https://img.icons8.com/office/40/000000/horizontal-line.png"/>
+                </div>
+
+                <!-- products  -->
+
+                <div class="flex flex-wrap justify-center gap-x-6 text-center gap-y-8">
+                    <!-- shirts  -->
+                    <div>
+                        <p class="font-Raleway text-xl font-medium pb-2">Shirts</p>
+                        <div class=" md:w-60 sm:w-36 border-2 border-red-200  overflow-hidden rounded-md">
+                            <a href="shirt.html">
+                            <img class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/shirts/covstar-shirts2.png?brightness=9&contrast=14&saturation=11&w=421" width="421" height="590 alt="shirt" />
+                            </a>
+                        </div>
+                    </div>
+                    <!-- T-shirts  -->
+                    <div>
+                        <p class="font-Raleway text-xl font-medium pb-2">T-shirts</p>
+                       <div class=" md:w-60 sm:w-36 border-2 border-red-200  overflow-hidden rounded-md">
+                        <a href="t-shirt.html">    
+                        <img class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/T-shirts/covstar-T-shirts14.png?brightness=2&contrast=12&cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592"alt="tee-shirt" />
+                        </a>
+                        </div>
+                    </div>
+                    <!-- hoodies  -->
+                    <div>
+                        <p class="font-Raleway text-xl font-medium pb-2">Hoodies</p>
+                        <div class=" md:w-60 sm:w-36 border-2 border-red-200  overflow-hidden rounded-md">
+                            <a href="hoodie.html">
+                            <img class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/hoodies/covstar-hoodie1.png?cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" alt="hoodie" />
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Sweatshirts -->
+                    <div>
+                        <p class="font-Raleway text-xl font-medium pb-2">Sweatshirts</p>
+                       <div class=" md:w-60 sm:w-36 border-2 border-red-200  overflow-hidden rounded-md">
+                        <a href="sweatshirt.html">    
+                        <img class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/sweatshirts/covstar-sweatshirts1.png?cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" alt="sweater" />
+                        </a>
+                        </div>
+                    </div>
+                    <!-- joggers -->
+                    <div>
+                        <p class="font-Raleway text-xl font-medium pb-2">Joggers</p>
+                       <div class=" md:w-60 sm:w-36  border-2 border-red-200  overflow-hidden rounded-md">
+                        <a href="joggers.html">    
+                        <img class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/joggers/joggers-removebg-preview.png?cw=421&ch=592&canvas.width=421&canvas.height=592&w=521&h=592" width="421" height="592" alt="Joggers" />
+                        </a>
+                        </div>
+                    </div>
+                    <!-- Longsleeve T-shirt  -->
+                    <div>
+                        <p class="font-Raleway text-xl xs:text-base font-medium pb-2">Longsleeve Tees</p>
+                        <div class=" md:w-60 sm:w-36 border-2 border-red-200  overflow-hidden rounded-md">
+                            <a href="longsleeveT.html">
+                            <img class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/longsleeve%20T-shirt/longsleeveTee1.jpg?cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                    <!-- socks -->
+                    <div>
+                        <p class="font-Raleway text-xl font-medium pb-2">Socks</p>
+                        <div class=" md:w-60 sm:w-36 border-2 border-red-200  overflow-hidden rounded-md">
+                            <a href="socks.html">
+                            <img class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/socks/socks.png?cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" alt="socks" />
+                            </a>
+                        </div>
+                    </div>
+                    <!-- caps -->
+                    <div>
+                        <p class="font-Raleway text-xl font-medium pb-2">Caps</p>
+                        <div class=" md:w-60 sm:w-36 border-2 border-red-200  overflow-hidden rounded-md">
+                            <a href="cap.html">
+                            <img class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/caps/cap.png?cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" alt="Caps" />
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Trending section  -->
+        <section class="md:pt-24 sm:pt-24">
+            
+            <div>
+                <div class="text-center flex justify-center sm:mb-16 md:mb-20">
+                   <img class="mr-8 sm:mr-4 sm:-mt-1" src="https://img.icons8.com/office/40/000000/horizontal-line.png"/>
+                    <span class="md:text-4xl sm:text-2xl font-Oswald font-semibold">TRENDING</span>
+                    <img class="ml-8 sm:ml-4 sm:-mt-1"  src="https://img.icons8.com/office/40/000000/horizontal-line.png"/>
+                </div>
+
+                <!-- first trending products  -->
+                
+
+                <div class="sm:px-5% xs:px-0  md:px-15% tb:px-0">
+                    
+
+                    <!-- slideshow container  -->
+                <div class="trending font-Raleway">
+ 
+                    <!-- first container  -->
+                    <div>
+                        <div class=" relative ">
+                        
+                        <div class=" md:w-60 sm:w-28 sm:h-40   overflow-hidden rounded-sm relative border-2 border-red-300">
+                           <p class="absolute md:left-0 sm:right-0 z-20  top-0 bg-red-300 sm:text-xs sm:p-px md:text-base md:p-1 rounded-l-sm font-medium font-Oswald">-40%</p>
+                           <a href="./t-shirts/product01.html"> 
+                            <img class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/T-shirts/covstar-T-shirts2.png?brightness=3&contrast=7&cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" alt="shirt" />
+                            </a>
+                        </div>
+                        <!-- clothes names  -->
+                        <p class="font-Raleway md:text-lg  sm:text-xs font-bold pt-1">Lemonade</p>
+
+                        <!-- prices  -->
+                        <span class="sm:text-sm font-bold text-red-700">N5,200</span>
+                        <span class="line-through text-xs">N8,000</span>
+
+                    </div>
+                    </div>
+
+                    <!-- second container  -->
+                    <div>
+                        <div class=" relative ">
+                        
+                        <div class=" md:w-60 sm:w-28 sm:h-40   overflow-hidden roundedsm relative border-2 border-red-300">
+                           <p class="absolute md:left-0 sm:right-0 z-20  top-0 bg-red-300 sm:text-xs sm:p-px md:text-base md:p-1 rounded-l-sm font-medium font-Oswald">-40%</p>
+                           <a href="./t-shirts/product05.html">
+                            <img class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/T-shirts/covstar-T-shirts5.png?contrast=10&cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" alt="" />
+                            </a> 
+
+                        </div>
+                        <!-- clothes names  -->
+                        <p class="font-Raleway md:text-lg  sm:text-xs font-bold pt-1">Rainbow Spiral</p>
+
+                        <!-- prices  -->
+                        <span class="sm:text-sm font-bold text-red-700">N2,600</span>
+                        <span class="line-through text-xs">N4,000</span>
+
+                    </div>
+                    </div>
+
+                    <!-- third container  -->
+                    <div>
+                        <div class=" relative ">
+                        
+                        <div class=" md:w-60 sm:w-28 sm:h-40   overflow-hidden rounded-sm relative border-2 border-red-300">
+                           <p class="absolute md:left-0 sm:right-0 z-20  top-0 bg-red-300 sm:text-xs sm:p-px md:text-base md:p-1 rounded-l-sm font-medium font-Oswald">-40%</p>
+                           <a href="./t-shirts/product010.html"> 
+                            <img class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/T-shirts/covstar-T-shirts10.png?cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" alt="T-shirt" />
+                            </a>
+                        </div>
+                        <!-- clothes names  -->
+                        <p class="font-Raleway md:text-lg  sm:text-xs font-bold pt-1">Green Path</p>
+
+                        <!-- prices  -->
+                        <span class="sm:text-sm font-bold text-red-700">N2,600</span>
+                        <span class="line-through text-xs">N4,000</span>
+
+                    </div>
+                    </div>
+
+                     <!-- fourth container  -->
+                    <div>
+                        <div class=" relative ">
+                        
+                        <div class=" md:w-60 sm:w-28 sm:h-40   overflow-hidden rounded-sm relative border-2 border-red-300">
+                           <p class="absolute md:left-0 sm:right-0 z-20  top-0 bg-red-300 sm:text-xs sm:p-px md:text-base md:p-1 rounded-l-sm font-medium font-Oswald">-40%</p>
+                           <a href="./shirts/product01.html"> 
+                            <img class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/shirts/covstar-shirts1.png?brightness=7&contrast=16&saturation=9&cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592"  alt="shirt" />
+                            </a>
+                        </div>
+                        <!-- clothes names  -->
+                        <p class="font-Raleway md:text-lg  sm:text-xs font-bold pt-1">Navy Bow</p>
+
+                        <!-- prices  -->
+                        <span class="sm:text-sm font-bold text-red-700 text-center">N3,400</span>
+                        <span class="line-through text-xs">N5,000</span>
+
+                    </div>
+                    </div>
+
+                     <!-- fifth container  -->
+                    <div>
+                        <div class=" relative ">
+                        
+                        <div class=" md:w-60 sm:w-28 sm:h-40   overflow-hidden rounded-sm relative border-2 border-red-300">
+                           <p class="absolute md:left-0 sm:right-0 z-20  top-0 bg-red-300 sm:text-xs sm:p-px md:text-base md:p-1 rounded-l-sm font-medium font-Oswald">-40%</p>
+                           <a href="./shirts/product05.html">
+                            <img class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/shirts/shirt3.png?brightness=8&contrast=11&cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" alt="shirt" />
+                            </a> 
+                        </div>
+                        <!-- clothes names  -->
+                        <p class="font-Raleway md:text-lg  sm:text-xs font-bold pt-1">Shortsleeve shirt for ladies</p>
+
+                        <!-- prices  -->
+                         <span class="sm:text-sm font-bold text-red-700 text-center">N6,800</span>
+                        <span class="line-through text-xs">N10,000</span>
+
+                    </div>
+                    </div>
+
+                    <!-- sixth container  -->
+                    <div>
+                        <div class=" relative ">
+                        
+                        <div class=" md:w-60 sm:w-28 sm:h-40   overflow-hidden rounded-sm relative border-2 border-red-300">
+                           <p class="absolute md:left-0 sm:right-0 z-20  top-0 bg-red-300 sm:text-xs sm:p-px md:text-base md:p-1 rounded-l-sm font-medium font-Oswald">-40%</p>
+                           <a href="./shirts/product07.html"> 
+                            <img class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/shirts/covstar-shirts4.png?contrast=12&cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" width="421" height="592" alt="shirt" />
+                            </a>
+                        </div>
+                        <!-- clothes names  -->
+                        <p class="font-Raleway md:text-lg  sm:text-xs font-bold pt-1">Prestige</p>
+
+                        <!-- prices  -->
+                        <span class="sm:text-sm font-bold text-red-700 text-center">N3,400</span>
+                        <span class="line-through text-xs">N5,000</span>
+
+                    </div>
+                    </div>
+
+                     <!-- seventh container  -->
+                    <div>
+                        <div class=" relative ">
+                        
+                        <div class=" md:w-60 sm:w-28 sm:h-40   overflow-hidden rounded-sm relative border-2 border-red-300">
+                           <p class="absolute md:left-0 sm:right-0 z-20  top-0 bg-red-300 sm:text-xs sm:p-px md:text-base md:p-1 rounded-l-sm font-medium font-Oswald">-40%</p>
+                           <a href="./sweatshirts/product01.html"> 
+                            <img class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/sweatshirts/covstar-sweatshirts1.png?brightness=4&contrast=13&cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" alt="shirt" />
+                            </a>
+                        </div>
+                        <!-- clothes names  -->
+                        <p class="font-Raleway md:text-lg  sm:text-xs font-bold pt-1">Sweatshirt</p>
+
+                        <!-- prices  -->
+                        <span class="sm:text-sm font-bold text-red-700 text-center">N3,900</span>
+                        <span class="line-through text-xs">N6,000</span>
+
+                    </div>
+                    </div>
+
+                 </div>
+
+             </div>
+
+             
+
+
+                <!-- second trending products  -->
+                
+
+         <div class="sm:px-5% xs:px-0 pt-5%  md:px-15% tb:px-0">
+                    
+
+                    <!-- slideshow container  -->
+                <div class="trending-2 font-Raleway">
+ 
+                    <!-- first container  -->
+                    <div>
+                        <div class=" relative ">
+                        
+                        <div class=" md:w-60 sm:w-28 sm:h-40   overflow-hidden rounded-sm relative border-2 border-red-300">
+                           <p class="absolute md:left-0 sm:right-0 z-20  top-0 bg-red-300 sm:text-xs sm:p-px md:text-base md:p-1 rounded-l-sm font-medium font-Oswald">-40%</p>
+                           <a href="./sweatshirts/product03.html">
+                            <img class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/sweatshirts/sweatshirt1.png?brightness=6&contrast=11&saturation=5&cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" alt="shirt" />
+                            </a> 
+                        </div>
+                        <!-- clothes names  -->
+                        <p class="font-Raleway md:text-lg  sm:text-xs font-bold pt-1">Sweatshirt</p>
+
+                        <!-- prices  -->
+                        <span class="sm:text-sm font-bold text-red-700 text-center">N3,900</span>
+                        <span class="line-through text-xs">N6,000</span>
+
+                        </div>
+                    </div>
+
+                    <!-- second container  -->
+                    <div>
+                        <div class=" relative ">
+                        
+                        <div class=" md:w-60 sm:w-28 sm:h-40   overflow-hidden roundedsm relative border-2 border-red-300">
+                           <p class="absolute md:left-0 sm:right-0 z-20  top-0 bg-red-300 sm:text-xs sm:p-px md:text-base md:p-1 rounded-l-sm font-medium font-Oswald">-40%</p>
+                           <a href="./joggers/product01.html"> 
+                            <img class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/joggers/covstar-joggers2.png?brightness=7&contrast=12&cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" width="421" height="592" alt="" />
+                            </a>
+
+                        </div>
+                        <!-- clothes names  -->
+                        <p class="font-Raleway md:text-lg  sm:text-xs font-bold pt-1">Black joggers</p>
+
+                        <!-- prices  -->
+                        <span class="sm:text-sm font-bold text-red-700 text-center">N3,400</span>
+                        <span class="line-through text-xs">N5,000</span>
+
+                         </div>
+                    </div>
+
+                    <!-- third container  -->
+                    <div>
+                        <div class=" relative ">
+                        
+                        <div class=" md:w-60 sm:w-28 sm:h-40   overflow-hidden rounded-sm relative border-2 border-red-300">
+                           <p class="absolute md:left-0 sm:right-0 z-20  top-0 bg-red-300 sm:text-xs sm:p-px md:text-base md:p-1 rounded-l-sm font-medium font-Oswald">-40%</p>
+                           <a href="./longsleeve-tees/product01.html"> 
+                            <img class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/longsleeve%20T-shirt/covstar-sweatshirts3.png?brightness=5&contrast=10&cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" alt="T-shirt" />
+                            </a>
+                        </div>
+                        <!-- clothes names  -->
+                        <p class="font-Raleway md:text-lg  sm:text-xs font-bold pt-1">Stripped Tee</p>
+
+                        <!-- prices  -->
+                        <span class="sm:text-sm font-bold text-red-700 text-center">N3,900</span>
+                        <span class="line-through text-xs">N6,000</span>
+
+                         </div>
+                    </div>
+
+                     <!-- fourth container  -->
+                    <div>
+                        <div class=" relative ">
+                        
+                        <div class=" md:w-60 sm:w-28 sm:h-40   overflow-hidden rounded-sm relative border-2 border-red-300">
+                           <p class="absolute md:left-0 sm:right-0 z-20  top-0 bg-red-300 sm:text-xs sm:p-px md:text-base md:p-1 rounded-l-sm font-medium font-Oswald">-40%</p>
+                           <a href="./longsleeve-tees/product03.html"> 
+                            <img class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/longsleeve%20T-shirt/longsleeveTee2.png?cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592"  alt="shirt" />
+                            </a>
+                        </div>
+                        <!-- clothes names  -->
+                        <p class="font-Raleway md:text-lg  sm:text-xs font-bold pt-1">Occasional Tee</p>
+
+                        <!-- prices  -->
+                        <span class="sm:text-sm font-bold text-red-700 text-center">N3,900</span>
+                        <span class="line-through text-xs">N6,000</span>
+
+                          </div>
+                    </div>
+
+                     <!-- fifth container  -->
+                    <div>
+                        <div class=" relative ">
+                        
+                        <div class=" md:w-60 sm:w-28 sm:h-40   overflow-hidden rounded-sm relative border-2 border-red-300">
+                           <p class="absolute md:left-0 sm:right-0 z-20  top-0 bg-red-300 sm:text-xs sm:p-px md:text-base md:p-1 rounded-l-sm font-medium font-Oswald">-40%</p>
+                           <a href="./hoodies/product01.html"> 
+                            <img class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/hoodies/covstar-hoodie1.png?cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" alt="shirt" />
+                            </a>
+                        </div>
+                        <!-- clothes names  -->
+                        <p class="font-Raleway md:text-lg  sm:text-xs font-bold pt-1">Red & Black Hood</p>
+
+                        <!-- prices  -->
+                        <span class="sm:text-sm font-bold text-red-700 text-center">N5,200</span>
+                        <span class="line-through text-xs">N8,000</span>
+
+                         </div>
+                    </div>
+
+                    <!-- sixth container  -->
+                    <div>
+                        <div class=" relative ">
+                        
+                        <div class=" md:w-60 sm:w-28 sm:h-40   overflow-hidden rounded-sm relative border-2 border-red-300">
+                           <p class="absolute md:left-0 sm:right-0 z-20  top-0 bg-red-300 sm:text-xs sm:p-px md:text-base md:p-1 rounded-l-sm font-medium font-Oswald">-40%</p>
+                           <a href="./hoodies/product02.html"> 
+                            <img class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/hoodies/hoodie1.png?brightness=6&contrast=12&cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" srcset="https://covstar.sirv.com/Images/hoodies/hoodie1.png?brightness=6&contrast=12&cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592 1x, https://covstar.sirv.com/Images/hoodies/hoodie1.png?brightness=6&contrast=12&cw=842&ch=1184&canvas.width=842&canvas.height=1184&w=842&h=1184 2x" alt="shirt" />
+                            </a>
+                        </div>
+                        <!-- clothes names  -->
+                        <p class="font-Raleway md:text-lg  sm:text-xs font-bold pt-1">Orange & Black Hood</p>
+
+                        <!-- prices  -->
+                        <span class="sm:text-sm font-bold text-red-700 text-center">N5,200</span>
+                        <span class="line-through text-xs">N8,000</span>
+                    </div>
+
+
+                </div>
+                    
+        </div>
+    </div>
+    </section>
+    <!-- end of trnding section  -->
+
+
+            <!-- stay updated section  -->
+        <section class="md:pt-10% sm:pt-10% mt-12 md:-mx-24 tb:-mx-2 sm:-mx-2  bg-black text-white">
+            <div>
+                <div class="text-center flex justify-center sm:mb-16 md:mb-20">
+                   <img class="mr-8 sm:mr-4 sm:-mt-1" src="https://img.icons8.com/office/40/000000/horizontal-line.png"/>
+                    <span class="md:text-4xl sm:text-2xl font-Oswald font-semibold">HOW TO ORDER</span>
+                    <img class="ml-8 sm:ml-4 sm:-mt-1"  src="https://img.icons8.com/office/40/000000/horizontal-line.png"/>
+                </div>
+                <!-- textarea  -->
+                <div class="grid md:justify-items-center sm:pb-10% md:pb-10% sm:px-4 md:px-15% md:text-2xl font-Raleway">
+                    <p class="md:text-center pb-4 md:text-3xl">
+                        Take A Screenshot Of The Product(s) Of Your Choice, Which Should Include The Product(s) Details, Example:
+                    </p>
+                    <p class="font-Lato sm:pb-5% md:pb-3%">
+                        <em class="pb-2">Quantity: 5 Pieces</em><br>
+                        <em class="pb-2">Colour details: Red, Blue And Black</em><br>
+                        <em>Size: 2 Large, 1 Xtra Large And 2 Medium</em>
+                        </p>
+                    <p>
+                        Forward To Us On WhatsApp <button class="bg-red-700 hover:bg-white hover:text-red-700 md:font-bold rounded-full text-white sm:py-2 ml-4 sm:px-4 md:py-2 md:px-5 xs:text-sm xs:ml-2"><a  href="https://wa.me/2348109119717?text=Hello"><i class="fa-brands fa-whatsapp text-green-500 mr-1"></i> Click Here</a></button>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- New Arrival section  -->
+
+        <section class="md:py-10% sm:py-15%">
+            <div>
+                <div class="text-center flex justify-center sm:mb-16 md:mb-20">
+                   <img class="mr-8 sm:mr-4 sm:-mt-1" src="https://img.icons8.com/office/40/000000/horizontal-line.png"/>
+                    <span class="md:text-4xl sm:text-2xl font-Oswald font-semibold">NEW ARRIVALS</span>
+                    <img class="ml-8 sm:ml-4 sm:-mt-1"  src="https://img.icons8.com/office/40/000000/horizontal-line.png"/>
+                </div>
+
+                <!-- products  -->
+            <div class="flex flex-wrap justify-center gap-x-6 text-center gap-y-8">
+
+                    <!-- product details  -->
+
+                    <div>
+                        <div class=" md:w-64 sm:w-32 border-2 border-red-200  overflow-hidden rounded-md relative">
+                            <a href="./t-shirts/product011.html">
+                                <img  class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/T-shirts/covstar-T-shirts11.png?brightness=3&contrast=7&cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" alt="shirt" />
+                                </a>
+                            <div class="absolute z-10  w-full py-3% bottom-0 bg-white bg-opacity-70">
+                                <!-- product name -->
+                                <p class="font-Raleway md:text-lg  sm:text-xs font-bold ">Ying Yang</p>
+                                <!-- prices  -->
+                                <span class="sm:text-sm font-bold text-red-700 text-center">N2,600</span>
+                                <span class="line-through text-xs">N4,000</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- product details  -->
+                    <div>
+                        <div class=" md:w-64 sm:w-32 border-2 border-red-200  overflow-hidden rounded-md relative">
+                            <a href="./sweatshirts/product02.html">
+                                <img  class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/sweatshirts/covstar-sweatshirts2.png?brightness=3&contrast=17&saturation=13&cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" alt="shirt" />
+                                </a>
+                            <div class="absolute z-10  w-full py-3% bottom-0 bg-white bg-opacity-70">
+                                <!-- product name -->
+                                <p class="font-Raleway md:text-lg  sm:text-xs font-bold ">Winter Jacket</p>
+                                <!-- prices  -->
+                                <span class="sm:text-sm font-bold text-red-700 text-center">N3,900</span>
+                                <span class="line-through text-xs">N6,000</span>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <!-- product details  -->
+                    <div>
+                        <div class=" md:w-64 sm:w-32 border-2 border-red-200  overflow-hidden rounded-md relative">
+                            <a href="./t-shirts/product013.html">
+                                <img  class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/T-shirts/covstar-T-shirts13.png?brightness=2&contrast=9&cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" alt="shirt" />
+                                </a>
+                            <div class="absolute z-10  w-full py-3% bottom-0 bg-white bg-opacity-70">
+                                <!-- product name -->
+                                <p class="font-Raleway md:text-lg  sm:text-xs font-bold ">Orange Tee</p>
+                                <!-- prices  -->
+                                <span class="sm:text-sm font-bold text-red-700 text-center">N2,600</span>
+                                <span class="line-through text-xs">N4,000</span>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <!-- product details  -->
+                    <div>
+                        <div class=" md:w-64 sm:w-32 border-2 border-red-200  overflow-hidden rounded-md relative">
+                            <a href="./hoodies/product05.html">
+                                <img  class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/hoodies/hoodie4.png?cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" alt="shirt" />
+                                </a>
+                            <div class="absolute z-10  w-full py-3% bottom-0 bg-white bg-opacity-70">
+                                <!-- product name -->
+                                <p class="font-Raleway md:text-lg  sm:text-xs font-bold ">Navy Hood</p>
+                                <!-- prices  -->
+                                <span class="sm:text-sm font-bold text-red-700 text-center">N5,200</span>
+                                <span class="line-through text-xs">N8,000</span>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <!-- product details  -->
+                    <div>
+                        <div class=" md:w-64 sm:w-32 border-2 border-red-200  overflow-hidden rounded-md relative">
+                            <a href="./shirts/product010.html">
+                                <img  class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/shirts/covstar-shirts7.png?contrast=7&cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" width="421" height="592" alt="shirt" />
+                                </a>
+                            <div class="absolute z-10  w-full py-3% bottom-0 bg-white bg-opacity-70">
+                                <!-- product name -->
+                                <p class="font-Raleway md:text-lg  sm:text-xs font-bold ">Five-Star</p>
+                                <!-- prices  -->
+                                 <span class="sm:text-sm font-bold text-red-700 text-center">N3,400</span>
+                                <span class="line-through text-xs">N5,000</span>
+                            </div>
+                        </div>
+                    </div> 
+
+                    <!-- product details  -->
+                    <div>
+                        <div class=" md:w-64 sm:w-32 border-2 border-red-200  overflow-hidden rounded-md relative">
+                            <a href="./caps/product02.html">
+                                <img  class="hover:scale-125 h-full transition delay-500 cursor-pointer" src="https://covstar.sirv.com/Images/caps/covstar-cap1.png?cw=421&ch=592&canvas.width=421&canvas.height=592&w=421&h=592" width="421" height="592" alt="shirt" />
+                                </a>
+                            <div class="absolute z-10  w-full py-3% bottom-0 bg-white bg-opacity-70">
+                                <!-- product name -->
+                                <p class="font-Raleway md:text-lg  sm:text-xs font-bold ">Face cap</p>
+                                <!-- prices  -->
+                                <span class="sm:text-sm font-bold text-red-700 text-center">N1,800</span>
+                                <span class="line-through text-xs">N3,000</span>
+                            </div>
+                        </div>
+                    </div> 
+            </div>
+                
+            </div>
+        </section>
+        <!-- end of new arrival section  -->
+
+    </main>
+
+    <!-- footer section  -->
+
+    <footer class="bg-black md:px-24 tb:px-2 sm:px-4 md:py-12 md:pt-5% sm:py-5% text-white font-Raleway">
+        <div class="md:flex md:justify-between md:pb-5%">
+            <!-- logo  -->
+            <div>
+                    <img class="" src="https://covstar.sirv.com/Images/covstar-logo.png?exposure=63&w=200&h=200" width="109" height="56"  alt="" />
+                    <p class="pt-3% sm:text-xs italic">We Redesign Your Textile World...</p>
+                </div>
+
+                
+                <!-- Quick links -->
+                <div class="sm:text-center md:text-center sm:pt-3%">
+                    <ul class="  text-xl font-Oswald font-semibold text-red-500 sm:flex gap-x-4 justify-center mt-8">
+                        <li class="md:pb-6 sm:pb-3%"><a class="hover:text-white" href="index.html">Home</a></li>
+                        <li class="md:pb-6 sm:pb-3%"><a class="hover:text-white" href="shop.html">Shop</a></li>
+                        <li class=""><a class="hover:text-white" href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact links  -->
+                <div class="sm:grid sm:justify-items-center sm:text-sm sm:py-5% xs:text-xs">
+                    <ul>
+                        <li class="md:pb-6 sm:pb-2 "><i class="fa-sharp fa-solid fa-location-dot mr-4 text-red-700"></i> Location: <span class="ml-4  italic">#7 Ogoja Rd 4/C, Ikom, Cross River State.</span></li>
+
+                        <li class="md:pb-6 sm:pb-2"><i class="fa-solid fa-envelope mr-4 text-red-700"></i> Email: <a class="ml-7  italic" href="mailto:covstardesigns@gmail.com">covstardesigns@gmail.com</a></li>
+
+                        <li class="md:pb-6 sm:pb-2"><i class="fa fa-phone mr-4 text-red-700"></i> Contact: <a class="ml-4  italic" href="tel:+2348109119717">+2348109119717</a></li>
+                    </ul>
+                </div>
+        </div>
+                <!-- social media icons -->
+                <div class="md:text-left sm:text-center">
+                    <a class="" href="#"><i class="fa-brands fa-facebook text-red-500 hover:text-white md:text-2xl sm:text-2xl mr-4 md:mr-12"></i></a>
+                    <a class="" href="#"><i class="fa-brands fa-instagram text-red-500 hover:text-white md:text-2xl sm:text-2xl  mr-4 md:mr-12"></i></a>
+                    <a class="" href="#"><i class="fa-brands fa-twitter text-red-500 hover:text-white md:text-2xl sm:text-2xl  mr-4 md:mr-12"></i></a>
+                </div>
+
+                <!-- copyright -->
+                <div class="sm:text-center pt-12 sm:text-sm">
+                    &#169; 2022 covstardesigns. All Right Reseverd. Built by <a class="text-red-700 font-medium" href="#">Covstar</a>
+                </div>
+
+                
+
+        
+    </footer>
+
+
+
+
+
+
+
+    <!-- javascript -->
+    <!-- jquery and jquery-ui cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script src="./src/script.js"></script>
+</body>
+</html>
